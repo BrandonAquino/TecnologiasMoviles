@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Azul_2"
+    tools:context=".Fragments.Ejercicio2Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_ejercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_titulo_calculo_cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/titulo_ejercicio2"
+            android:textAlignment="center"
+            android:textColor="@color/Negro"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_cal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_titulo_calculo_cal">
+
+            <EditText
+                android:id="@+id/et_cal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_parcial1"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_cal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toBottomOf="@id/til_cal1">
+
+            <EditText
+                android:id="@+id/et_cal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_parcial2"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_cal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toBottomOf="@id/til_cal2">
+
+            <EditText
+                android:id="@+id/et_cal3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_parcial3"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_limpiar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:paddingHorizontal="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/til_cal3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="@color/Negro"
+            android:textColor="@color/Blanco"
+            android:text="@string/btn_limpiar"/>
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="80dp"
+            android:paddingHorizontal="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/til_cal3"
+            app:layout_constraintStart_toEndOf="@+id/btn_limpiar2"
+            android:backgroundTint="@color/Negro"
+            android:textColor="@color/Blanco"
+            android:text="@string/btn_calcular"/>
+
+        <TextView
+            android:id="@+id/tv_titulo_resultado_prom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/titulo_promedio"
+            android:textAlignment="center"
+            android:textColor="@color/Negro"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_limpiar2"/>
+
+        <TextView
+            android:id="@+id/tv_resultado_prom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/relizaOpera"
+            android:textAlignment="center"
+            android:textColor="@color/Negro"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_calcular"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_resultado_prom"/>
+
+        <TextView
+            android:id="@+id/tv_titulo_estatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/titulo_Estatus"
+            android:textAlignment="center"
+            android:textColor="@color/Negro"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_resultado_prom"/>
+
+        <TextView
+            android:id="@+id/tv_estatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/relizaOpera"
+            android:textAlignment="center"
+            android:textColor="@color/Negro"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_resultado_prom"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_estatus"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

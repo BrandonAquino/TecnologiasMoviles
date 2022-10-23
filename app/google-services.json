@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364684088063",
+    "firebase_url": "https://tecnologiasmovil-1b718-default-rtdb.firebaseio.com",
+    "project_id": "tecnologiasmovil-1b718",
+    "storage_bucket": "tecnologiasmovil-1b718.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364684088063:android:417b90600fa944010a32ca",
+        "android_client_info": {
+          "package_name": "com.example.tecnologiasmoviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364684088063-f9q7k3tv2avc98mmv32v6ede0ue6te6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tecnologiasmoviles",
+            "certificate_hash": "7e017f7e8034b83bd33da496cb180c2a79a7b71a"
+          }
+        },
+        {
+          "client_id": "364684088063-4h6huqolh5hk91sjf2qmbvsf2g6lalo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPofCTJgWv-S8B7QHjQSx3522rP3aw0fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364684088063-4h6huqolh5hk91sjf2qmbvsf2g6lalo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Azul_6">
+
+        <ImageView
+            android:id="@+id/img_persona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:padding="20dp"
+            android:src="@drawable/personal_blanco_mediano"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_titulo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/id"
+            android:textAlignment="center"
+            android:textColor="@color/Azul_2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/img_persona"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/ejemploID"
+            android:textAlignment="center"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_id"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_titulo_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/nombre"
+            android:textAlignment="center"
+            android:textColor="@color/Azul_2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/img_persona"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_id" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/ejemploNombre"
+            android:textAlignment="center"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_nombre"
+            app:layout_constraintTop_toBottomOf="@id/tv_id" />
+
+        <TextView
+            android:id="@+id/tv_titulo_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/edad"
+            android:textAlignment="center"
+            android:textColor="@color/Azul_2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/img_persona"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_nombre"/>
+
+        <TextView
+            android:id="@+id/tv_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/ejemploEdad"
+            android:textAlignment="center"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_edad"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombre"/>
+
+        <TextView
+            android:id="@+id/tv_titulo_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/carrera"
+            android:textAlignment="center"
+            android:textColor="@color/Azul_2"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/img_persona"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_edad"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/ejemploCarrera"
+            android:textAlignment="center"
+            android:textColor="@color/Blanco"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_titulo_carrera"
+            app:layout_constraintTop_toBottomOf="@+id/tv_edad"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<resources>
+    <!--Seccion para escribir todos los textos que se mostraran en la aplicacion, posteriormente se mandan a llamar-->
+    <string name="app_name">Tecnologías moviles</string>
+    <string name="titulo_layout">Registro de personal</string>
+    <string name="titulo_inicio">Proyecto App</string>
+    <string name="integrantes">Integrantes</string>
+    <string name="universidad">Universidad</string>
+    <string name="nombre_uni">Centro de Estudios Superiores de Veracruz</string>
+    <string name="semestre">7° Semestre</string>
+    <string name="nombre_integrante1">Brandon Ivan Aquino Olivares</string>
+    <string name="nombre_integrante2">Julio Sebastian Molina Cobos</string>
+    <string name="nombre_integrante3">Luis Fernando Flores Pareja</string>
+    <string name="docente">Docente</string>
+    <string name="nombre_docente">Mario Calderon</string>
+    <string name="version">Version 1.0</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_carrera">Carrera</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="id">ID:</string>
+    <string name="ejemploID">01</string>
+    <string name="nombre">Nombre:</string>
+    <string name="ejemploNombre">Brandon</string>
+    <string name="edad">Edad:</string>
+    <string name="ejemploEdad">22</string>
+    <string name="carrera">Carrera:</string>
+    <string name="ejemploCarrera">Sistemas</string>
+    <string name="titulo_ejercicio2">Calcular promedio</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="hint_parcial1">Calificacion primer parcial</string>
+    <string name="hint_parcial2">Calificacion segundo parcial</string>
+    <string name="hint_parcial3">Calificacion tercer parcial</string>
+    <string name="titulo_promedio">Promedio:</string>
+    <string name="ejemploPromedio">9.5</string>
+    <string name="titulo_Estatus">Estatus:</string>
+    <string name="Excelente">Excelente</string>
+    <string name="Bueno">Bueno</string>
+    <string name="Regular">Regular</string>
+    <string name="Malo">Malo</string>
+    <string name="Deficiente">Deficiente</string>
+    <string name="relizaOpera">Realiza una operacion</string>
+    <string name="fechaPublicacion">Publicado 22.10.22</string>
+</resources>
